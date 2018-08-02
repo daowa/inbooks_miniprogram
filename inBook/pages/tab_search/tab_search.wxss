@@ -1,0 +1,9 @@
+/* pages/tab_search/tab_search.wxss */
+text{
+  font-size: 14pt;
+}
+button{
+  margin-top: 100rpx;
+  padding-left: 15rpx;
+  padding-right: 15rpx;
+}

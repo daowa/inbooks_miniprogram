@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/tab_search/tab_search",
+    "pages/tab_mine/tab_mine",
+    "pages/tab_bookshelf/tab_bookshelf",
+    "pages/list_words/list_words",
+    "pages/list_words_info/list_words_info",
+    "pages/list_words_info_detail/list_words_info_detail",
+    "pages/list_words_info_detail_video/list_words_info_detail_video",
+    "pages/list_words_info_detail_audio/list_words_info_detail_audio",
+    "pages/book_detail/book_detail",
+    "pages/mine_network/mine_network"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tab_search/tab_search",
+        "iconPath": "image/icon_search.png",
+        "selectedIconPath": "image/icon_search_HL.png",
+        "text": "探索"
+      },
+      {
+        "pagePath": "pages/tab_mine/tab_mine",
+        "iconPath": "image/icon_knowledge.png",
+        "selectedIconPath": "image/icon_knowledge_HL.png",
+        "text": "知识"
+      },
+      {
+        "pagePath": "pages/tab_bookshelf/tab_bookshelf",
+        "iconPath": "image/icon_book.png",
+        "selectedIconPath": "image/icon_book_HL.png",
+        "text": "书架"
+      }
+    ]
+  },
+  "window":{
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "inBook",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

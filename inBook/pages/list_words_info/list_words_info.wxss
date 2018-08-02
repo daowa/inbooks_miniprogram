@@ -1,0 +1,31 @@
+/* pages/tab_entityshelf/tab_entityshelf.wxss */
+.entity-item{
+  margin: 20rpx 30rpx;
+  padding: 30rpx;
+  background-color: #fff;
+}
+.entity-image{
+  height: 200rpx;
+  width: 200rpx;
+  float: left;
+  padding: 15rpx 25rpx 10rpx 0;
+}
+
+.entity-title{
+  font-size: 13pt;
+}
+
+.entity-introduce{
+  font-size: 11pt;
+  padding-top: 5rpx;
+  min-height: 220rpx;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.entity-from{
+  font-size: 10pt;
+  color: #b2b2b2;
+}

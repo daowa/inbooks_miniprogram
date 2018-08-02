@@ -1,0 +1,12 @@
+<view class="paper">
+  <view class="view_title">
+    <text class='title'>{{word.title}}\r\n</text>
+  </view>
+  <view class="view_from">
+    <text class='from' bindtap="clipUrl" data-url="{{word.url}}">来自 {{word.from}}\r\n</text>
+    <text class='from'  bindtap="clipUrl" data-url="{{word.url}}">点击此处复制来源网址</text>
+  </view>
+  <view class="view_video">
+    <video class="video"src="{{word.src}}" controls ></video>
+  </view>
+</view>

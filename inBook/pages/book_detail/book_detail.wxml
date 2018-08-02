@@ -1,0 +1,30 @@
+<view>
+  <view class="book-item">
+    <view>
+      <image class="book-image" src="{{book.image}}" bindtap="previewImage"></image>
+    </view>
+    <view class="text-contain">
+      <view>
+        <view>
+          <text class="title">书名：</text>
+          <text class="content book-title">《{{book.title}}》\r\n</text>
+          <text class="title">索书号：</text>
+          <text class="content book-callno">{{book.callno}} (上海图书馆)</text>
+        </view>
+      </view>
+      <view class="summary">
+        <text class="title">简介:</text>
+        <text class="content">
+          {{book.content}}
+        </text>
+      </view>
+    </view>
+  </view>
+
+  <!-- <text class="title title-words">知识点:</text> -->
+  <block wx:for-items="{{words}}" wx:for-item="word">
+    <view class="word-item" bindtap="viewDetail" data-title="{{word.title}}">
+      <text class="word">{{word.title}}</text>
+    </view>
+  </block>
+</view>

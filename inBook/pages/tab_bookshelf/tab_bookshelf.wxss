@@ -1,0 +1,32 @@
+/* pages/tab_bookshelf/tab_bookshelf.wxss */
+.book-item{
+  margin: 10rpx 10rpx;
+}
+.book-image{
+  height: 320rpx;
+  width: 230rpx;
+  float: left;
+  padding: 10rpx 30rpx 10rpx 30rpx;
+}
+
+.book-title{
+  font-size: 13pt;
+}
+
+.book-introduce{
+  font-size: 11pt;
+  min-height: 280rpx;
+  padding: 5rpx 30rpx 0 0;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line{
+  height: 1rpx;
+  width: 100%;
+  margin-top: 25rpx;
+  background-color: #ccc;
+}

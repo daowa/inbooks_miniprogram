@@ -1,0 +1,14 @@
+<block wx:for-items="{{books}}" wx:for-item="book" wx:key='id'>
+  <view class="book-item" bindtap="viewDetail" data-id="{{book.id}}">
+    <view>
+      <image class="book-image" src="{{book.image}}"></image>
+    </view>
+    <view class="book-info">
+      <view>
+        <text class="book-title">{{book.title}}\r\n</text>
+        <text class="book-introduce">{{book.introduce}}</text>
+      </view>
+    </view>
+    <view class="line"></view>
+  </view>
+</block>

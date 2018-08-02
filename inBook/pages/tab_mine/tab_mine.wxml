@@ -1,0 +1,9 @@
+<view class='explain'>
+  <text class='title'>掌握的知识点\r\n</text>
+  <text class='introduce'>{{explain}}</text>
+</view>
+<block wx:for-items="{{words}}" wx:for-item="word" wx:key = 'key'>
+  <view class="word-item" bindtap="viewDetail" data-title="{{word.title}}">
+    <text class="word">{{word.title}}({{word.count}})</text>
+  </view>
+</block>

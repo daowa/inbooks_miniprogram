@@ -1,0 +1,9 @@
+<view>
+  <image class='network' src="{{network}}" bindtap="previewImage"></image>
+</view>
+<block wx:for-items="{{words}}" wx:for-item="word">
+  <view class="word-item" bindtap="viewDetail" data-title="{{word.title}}">
+    <text class="word">{{word.title}}({{word.count}})\r\n</text>
+    <text class="relate">{{word.relate}}</text>
+  </view>
+</block>

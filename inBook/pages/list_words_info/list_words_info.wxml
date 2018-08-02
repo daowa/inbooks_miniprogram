@@ -1,0 +1,16 @@
+<block wx:for-items="{{entitys}}" wx:for-item="entity">
+  <view class="entity-item" bindtap="viewDetail" data-id="{{entity.id}}" data-url="{{entity.url}}" data-from="{{entity.from}}" data-word="{{entity.word}}" data-title='{{entity.title}}'>
+    <view>
+      <text class="entity-title">{{entity.title}}\r\n</text>
+    </view>
+    <view>
+      <image class="entity-image" src="{{entity.image}}"></image>
+    </view>
+    <view class="entity-info">
+      <view>
+        <text class="entity-introduce">{{entity.introduce}}</text>
+        <text class='entity-from'>来自 {{entity.from_cn}}</text>
+      </view>
+    </view>
+  </view>
+</block>

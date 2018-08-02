@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section page-section-spacing">
+      <text>打开书本，\r\n</text>
+      <text>对感兴趣的知识点拍照，\r\n</text>
+      <text>... ...\r\n</text>
+      <text>\r\n</text>
+      <text>开始探索吧 !</text>
+      <button type="primary" bindtap="chooseImage">手机拍照</button>
+    </view>
+  </view>
+
+</view>

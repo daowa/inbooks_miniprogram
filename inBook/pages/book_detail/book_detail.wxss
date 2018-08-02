@@ -1,0 +1,31 @@
+/* pages/book_detail/book_detail.wxss */
+.container{
+  padding-top: 0;
+}
+.book-image{
+  width: 100%;
+}
+
+.text-contain{
+  padding: 10rpx 40rpx 20rpx 40rpx;
+}
+.title{
+  line-height: 70rpx;
+  font-size: 14pt;
+  color: #000;
+}
+.content{
+  font-size: 13pt;
+}
+
+.title-words{
+  padding-left: 40rpx;
+}
+.word-item{
+  margin: 20rpx 20rpx 0 20rpx; 
+  padding: 30rpx 0rpx 30rpx 30rpx; 
+  background-color: #ffffff;
+}
+.word{
+  font-size: 15pt;
+}

@@ -1,0 +1,19 @@
+<view class="paper">
+  <view class="view_title">
+    <text class='title'>{{word.title}}\r\n</text>
+  </view>
+  <view class="view_from">
+    <text class='from' bindtap="clipUrl" data-url="{{word.url}}">来自 {{word.from}}\r\n</text>
+    <text class='from'  bindtap="clipUrl" data-url="{{word.url}}">点击此处复制来源网址</text>
+  </view>
+  <block wx:for-items="{{word.content}}" wx:for-item="p" wx:key="key">
+    <view class="content">
+      <text class="p">\t{{p}}</text>
+    </view>
+  </block>
+  <block wx:for-items="{{word.image}}" wx:for-item="img" wx:key="key">
+    <view class="image">
+      <image class="img" src="{{img.src}}" data-index="{{img.index}}" bindtap="previewImage"></image>
+    </view>
+  </block>
+</view>
